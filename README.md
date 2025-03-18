@@ -26,12 +26,13 @@ The **Hybrid Framework** is a test automation framework that combines features o
 HybridFramework/
 │── src/
 │   ├── testcases/       
-│   ├── keywords/        # Test scripts
+│   ├── screenshoot/        # Test scripts
 │   ├── pages/           # Page Object Model classes
 │   ├── utils/           # Utility functions
 │   ├── data/            # Test data files
 │   ├── config/          # Configuration files
-│   ├── reports/         # Test reports
+│   ├── reports/
+|   |--loggs             # Test reports
 │── requirements.txt     # Dependencies (for Python projects)
 │── pom.xml              # Project documentation
 │── README.md           
