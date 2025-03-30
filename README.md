@@ -1,18 +1,9 @@
 # Hybrid-FrameWork
 
-## Introduction
+1. Introduction
 The **Hybrid Framework** is a test automation framework that combines features of multiple frameworks such as Data-Driven,pytest. It leverages the advantages of each to create a scalable and flexible automation solution.
 
-## Features
-- **Modular Design**: Test scripts are broken into reusable modules.
-- **Data-Driven Testing**: Supports external data sources like Excel, CSV, and databases.
-- **Keyword-Driven Approach**: Uses predefined Data Driven for test execution.
-- **Page Object Model (POM)**: Enhances maintainability and readability.
-- **Logging & Reporting**: Integrated with --html/Allure reporting.
-- **Parallel Execution**: Supports execution across multiple browsers and environments.
-- **CI/CD Integration**: Easily integrates with Jenkins, GitHub Actions, and other CI/CD tools.
-
-## Technologies Used
+2.Technologies Used
 - **Programming Language**: Python 
 - **Automation Tool**: Selenium 
 - **Test Framework**: Pytest
@@ -21,7 +12,7 @@ The **Hybrid Framework** is a test automation framework that combines features o
 - **Version Control**: Git, GitHub/GitLab
 - **CI/CD Tools**: Jenkins, GitHub Actions
 
-## Project Structure
+3. Project Structure
 ```
 HybridFramework/
 │── src/
@@ -39,8 +30,8 @@ HybridFramework/
 │── .gitignore          
 ```
 
-## Installation
-### Prerequisites
+4.Installation
+* Prerequisites
 - Install Python
 - Install Selenium
 - Install dependencies:
@@ -52,17 +43,16 @@ HybridFramework/
     pip install pytest-xdist
     pip install pytest-htmlreports
 
-## Running Tests
+5. Running Tests
 - To run tests using Pytest:
   pytest -v --html=reports/report.html
-## CI/CD Integration
+6. CI/CD Integration
 - Configure Jenkins pipeline to run tests automatically on code commits.
 - Use GitHub Actions for triggering automated test runs.
 
-## Contribution
-1. Fork the repository
-2. Create a new feature branch (`git checkout -b feature-branch`)
-3. Commit changes (`git commit -m 'Add new feature'`)
-4. Push to the branch (`git push origin feature-branch`)
-5. Create a Pull Request
+7. Contribution
+1. Create a new feature branch (`git checkout -b feature-branch`)
+2. Commit changes (`git commit -m 'Add new feature'`)
+3. Push to the branch (`git push origin feature-branch`)
+4. Create a Pull Request
 
